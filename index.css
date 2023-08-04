@@ -6,6 +6,7 @@
   margin-bottom: 142px;
   border-bottom-left-radius: 80px;
   background-position: 0 65px;
+  background-size: 100%;
 }
 
 .apply-margin {
@@ -17,7 +18,7 @@
   border-top-left-radius: 80px;
   background-image: url(hero/C-shapes.svg);
   background-repeat: no-repeat;
-  background-position: 190px 32px;
+  background-size: 100%;
 }
 
 .button {
@@ -473,6 +474,7 @@ input::placeholder {
     border-top-left-radius: 130px;
     background-position-x: 65px;
     background-position-y: 95px;
+    background-size: 100%;
   }
 
   #form {
