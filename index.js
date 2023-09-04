@@ -3,15 +3,15 @@ const openmenu = document.querySelector(".menuitems");
 
 clickBurger.addEventListener("click", toggleMenu);
 
-function toggleMenu() {
-  if (openmenu.style.display === "none" || openmenu.style.display === "") {
-    openmenu.style.display = "block";
-    document.body.style.overflow = "hidden";
-  } else {
-    openmenu.style.display = "none";
-    document.body.style.overflow = "auto"; 
-  }
-}
+// function toggleMenu() {
+//   if (openmenu.style.display === "none" || openmenu.style.display === "") {
+//     openmenu.style.display = "block";
+//     document.body.style.overflow = "hidden";
+//   } else {
+//     openmenu.style.display = "none";
+//     document.body.style.overflow = "auto"; 
+//   }
+// }
 
 const menuItems = document.querySelectorAll('.subitems');
 
