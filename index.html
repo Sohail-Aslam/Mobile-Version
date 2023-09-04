@@ -1,236 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
-</head> 
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
 
 <body>
     <main>
 
-    <div class="All-section">    
-    <section class="first">
-        <header>
-            
-            <span><p class="logo">My Logo  </p></span>
-            
-                <ul class="menu">
-                    <li>Portfolio</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-                <a href="" class="more"><img src="hero/humberger.png" height="25px"  alt=""></a>
-                
+        <div class="All-section">
+            <section class="first" id="p">
+                <header>
+                    <nav class="navbar">
+                        <p class="logo">MyLogo  </p>
 
-        </header>
+                        <ul class="menu">
+                            <li class="hover" onclick="scrollToSection('portfolio')">Portfolio</li>
+                            <li class="hover" onclick="scrollToSection('about')"> About</li>
+                            <li class="hover" onclick="scrollToSection('contact')">Contact</li>
+                        </ul>
 
-        <div class="apply-margin"> 
-    <div class="greeting">
-        <h1 class="hello">I’m Sohail. <br>
-            Glad to see you!</h1>
-    </div>
-    <p class="job-description">
-        I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
-    </p>
-    <p class="connect">LET’S CONNECT</p>
-    <ul class="social-links">
-            <li>
-            <img src="hero/1.svg" alt=""></li>
-            <li>
-                <a href="https://www.linkedin.com/in/sohail-aslam-92328a27b/"> <img src="hero/Linkedin icon.svg" alt=""></li></a>
-            <li>
-                <a href="https://github.com/Sohail-Aslam"><img src="hero/4.svg" alt=""></li></a>
-            <li><img src="hero/3.svg" alt=""></li>   
-            <li>
-            <img src="hero/5.svg" alt=""></li>
-    </ul>
+                        <input class="btn" type="checkbox" id="menu-toggle">
+                        <label for="menu-toggle" class="menu-icon">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </label>
+                        <div class="animation start-home"></div>
+                    </nav>
+                    
+                    <div class="fit">
+                        <ul class="menuitems">
+                            <li class="subitems"><a class="DestopMenu" href="#portfolio">Portfolio</a></li>
+                            <li class="subitems"><a class="DestopMenu" href="#about">About</a></li>
+                            <li class="subitems"><a class="DestopMenu" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
 
 
+                </header>
 
-      </div>
-    </section>
-    <section class="f-section Ss M">
-        <div class="box">
-            <img id="s" src="hero/M1.png"  alt="snapshot" >
-            <div class="tone">
-                <h2 class="title">Tonic</h2>
-            <ul class="Avail">   
-                <li class="CANOPY">
-                    CANOPY
-            </li>
-                <li >
-                  
-                  Back End Dev
-                </li>
-                <li >
-                  
-                  2015
-                
-                </li>
-            </ul>
-    <p id="S-block">
-        A daily selection of  <br> personalized reads; no accounts or sign-ups required.
-    </p>
-    <ul class="tags">
-        <li> HTML</li>
-        <li> CSS</li>
-        <li>JavaScript</li>
-    </ul>
-    <p class="button">See project</p>
-    </div>
-</div>
-     </section>
+                <div class="apply-margin" id="portfolio">
+                    <div class="greeting">
+                        <h1 class="hello">I’m Sohail. <br>
+                            Glad to see you!</h1>
+                    </div>
+                    <p class="job-description">
+                        I’m a software developer! I can help you build a product , feature or website Look through some
+                        of my work and experience! If you like what you see and have a project you need coded, don’t
+                        hesitate to contact me.
+                    </p>
+                    <p class="connect">LET’S CONNECT</p>
+                    <ul class="social-links">
+                        <li>
+                            <img src="hero/1.svg" alt="">
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/sohail-aslam-92328a27b/"> <img
+                                    src="hero/Linkedin icon.svg" alt="">
+                        </li></a>
+                        <li>
+                            <a href="https://github.com/Sohail-Aslam"><img src="hero/4.svg" alt="">
+                        </li></a>
+                        <li><img src="hero/3.svg" alt=""></li>
+                        <li>
+                            <img src="hero/5.svg" alt="">
+                        </li>
+                    </ul>
 
 
-<section class="S-section Ss M">
-    <div class="box, reverse">
-        <img id="s" src="hero/1st.png" alt="snapshot">
-        <div class="tone tr">
-           <h2>Multi-Post <br> Stories</h2>
-            <ul class="Avail">   
-                <li class="CANOPY">CANOPY</li>
-                <li>Back End Dev</li>
-                <li>2015</li>
-            </ul>
-            <p id="S-block"> A daily selection of <br> personalized reads; no accounts or sign-ups required.</p>
-            <ul class="tags">
-               <li>HTML</li>
-               <li>CSS</li>
-               <li>JavaScript</li>
-            </ul>
-           <p class="button">See project</p>
+
+                </div>
+            </section>
+            <section class="f-section Ss M">
+                <div class="box">
+                    <img id="s" src="hero/M1.png" alt="snapshot">
+                    <div class="tone">
+                        <h2 class="title">Tonic</h2>
+                        <ul class="Avail">
+                            <li class="CANOPY">
+                                CANOPY
+                            </li>
+                            <li>
+
+                                Back End Dev
+                            </li>
+                            <li>
+
+                                2015
+
+                            </li>
+                        </ul>
+                        <p id="S-block">
+                            A daily selection of <br> personalized reads; no accounts or sign-ups required.
+                        </p>
+                        <ul class="tags">
+                            <li> HTML</li>
+                            <li> CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <p class="button">See project</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="S-section Ss M">
+                <div class="box, reverse">
+                    <img id="s" src="hero/1st.png" alt="snapshot">
+                    <div class="tone tr">
+                        <h2>Multi-Post <br> Stories</h2>
+                        <ul class="Avail">
+                            <li class="CANOPY">CANOPY</li>
+                            <li>Back End Dev</li>
+                            <li>2015</li>
+                        </ul>
+                        <p id="S-block"> A daily selection of <br> personalized reads; no accounts or sign-ups required.
+                        </p>
+                        <ul class="tags">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <p class="button">See project</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="Ss M">
+                <div class="box"><br>
+                    <img id="s" src="hero/2nd.png" alt="snapshot">
+                    <div class="tone">
+                        <h2 class="title">Tonic</h2>
+                        <ul class="Avail">
+                            <li class="CANOPY">CANOPY</li>
+                            <li>Back End Dev</li>
+                            <li>2015</li>
+                        </ul>
+                        <p id="S-block">
+                            A daily selection of <br> personalized reads; no accounts or sign-ups required.
+                        </p>
+                        <ul class="tags">
+                            <li>HTMT</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <p class="button">See project</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="Ss M">
+                <div class="box, reverse"><br>
+                    <img id="s" src="hero/3rd.png" alt="">
+                    <div class="tone tr">
+                        <h2>Multi-Post <br> Stories</h2>
+
+                        <ul class="Avail">
+                            <li class="CANOPY">CANOPY</li>
+                            <li>Back End Dev</li>
+                            <li>2015</li>
+                        </ul>
+                        <p id="S-block">
+                            A daily selection of <br> personalized reads; no accounts or sign-ups required.
+                        </p>
+                        <ul class="tags">
+                            <li>
+                                HTML</li>
+                            <li>
+                                CSS</li>
+                            <li>
+                                JavaScript</li>
+                        </ul>
+                        <p class="button">See project</p>
+                    </div>
+                </div>
+            </section>
         </div>
-    </div>  
-</section> 
+
+        <div class="LION">
+            <section class="myself" id="about">
+                <div class="for-flex">
+                    <div class="ttwo"><br>
+                        <div class="D">
+                            <h1 class="about">About Myself</h1>
+                            <p>Hello I’m a software developer! I can help you build a product , feature or website. Look
+                                through some of my work and experience! If you like what you see and have a project you
+                                need coded, don’t hesitate to contact me.</p>
+                            <p class="connect">LET’S CONNECT</p>
+                            <ul class="social-links">
+                                <li>
+                                    <img src="hero/1.svg" alt="">
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/sohail-aslam-92328a27b/"> <img
+                                            src="hero/Linkedin icon.svg" alt="">
+                                </li></a>
+                                <li>
+                                    <a href="https://github.com/Sohail-Aslam"><img src="hero/4.svg" alt="">
+                                </li></a>
+                                <li><img src="hero/3.svg" alt=""></li>
+                                <li>
+                                    <img src="hero/5.svg" alt="">
+                                </li>
+                            </ul>
+                            <p class="button">Get my resume</p>
+                        </div>
+                    </div>
+                    <div class="LLI">
+                        <ul id="LI">
+                            <div class="parent language">
+                                <p class="Tt lang">Language <img id="chirvon" src="hero/left chi.png" height="20px"
+                                        width="20px" alt=""></p>
+                                <div class="child"><img id="S" src="hero/js.png" alt="">
+                                    <div class="T">Javascript</div>
+                                </div>
+
+                                <div class="child"><img id="S" src="hero/html.png" alt="">
+                                    <div class="T">HTML</div>
+                                </div>
+
+                                <div class="child"><img id="S" src="hero/css.png" alt="">
+                                    <div class="T">CSS</div>
+                                </div>
+                            </div>
+
+                            <div class="lang">
+                                <p class="Tt">Framework </p>
+                                <img id="chirvon" src="hero/chirvon.png" height="20px" width="20px" alt="">
+                            </div>
+                            <hr class="line">
+
+                            <div class="lang">
+                                <p class="Tt">Skills</p>
+                                <img id="chirvon" src="hero/chirvon.png" height="20px" width="20px" alt="">
+                            </div>
+
+                            <hr class="line">
+
+                        </ul>
+                    </div>
+                </div>
+                <section class="bg-color" id="contact">
+                    <div class="CDV">
+                        <h2 id="contact-me">Contact me</h2>
+                        <p class="contact-me-p">If you have an application you are interested in developing, a feature
+                            that you need built or a project that needs coding.
+                            I’d love to help with it!</p>
+
+                        <form id="form" action="https://formspree.io/f/xdorkjkk" method="POST">
+                            <input id="name" type="text" name="name" placeholder="Name" maxlength="40"
+                                autocomplete="given-name" required>
+
+                            <input id="email" type="email" name="email" placeholder="example@gmail.com"
+                                autocomplete="off" required>
+
+                            <textarea id="message" name="message" placeholder="Write Your Message" maxlength="500"
+                                autocomplete="message" required></textarea>
+                            <button class="button ,end" type="submit">Get in touch</button>
+                    </div>
+                    </form>
 
 
-<section class="Ss M">
-    <div class="box"><br>
-        <img id="s"  src="hero/2nd.png"   alt="snapshot">
-        <div class="tone">
-       <h2 class="title">Tonic</h2>
-        <ul class="Avail">   
-            <li class="CANOPY">CANOPY</li>
-            <li>Back End Dev</li>
-            <li>2015</li>
-        </ul>
-     <p id="S-block">
-         A daily selection of  <br> personalized reads; no accounts or sign-ups required.
-      </p>
-   <ul class="tags">
-        <li>HTMT</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
-    <p class="button">See project</p>
+                </section>
+            </section>
         </div>
-    </div>
-</section>   
-
-
-<section class="Ss M">
-    <div class="box, reverse"><br>
-        <img id="s" src="hero/3rd.png" alt="">
-    <div class="tone tr">  <h2>Multi-Post <br> Stories</h2> 
-  
-    <ul class="Avail">   
-        <li class="CANOPY">CANOPY</li>
-        <li >Back End Dev</li>
-        <li >2015</li>
-    </ul>
-    <p id="S-block">
-    A daily selection of  <br> personalized reads; no accounts or sign-ups required.
-    </p>
-<ul class="tags">
-        <li>
-        HTML</li>
-        <li>
-        CSS</li>
-        <li>
-        JavaScript</li>
-</ul>
-<p class="button">See project</p>
-       </div>
-    </div> 
-</section>
-</div>
-
-<div class="LION">
-<section class="myself">
-    <div class="for-flex">
-        <div class="ttwo"><br>
-        <div class="D">
-            <h1 class="about">About Myself</h1>
-            <p>Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-             <p class="connect">LET’S CONNECT</p>
-             <ul class="social-links">
-                <li>
-                <img src="hero/1.svg" alt=""></li>
-                <li>
-                    <a href="https://www.linkedin.com/in/sohail-aslam-92328a27b/"> <img src="hero/Linkedin icon.svg" alt=""></li></a>
-                <li>
-                    <a href="https://github.com/Sohail-Aslam"><img src="hero/4.svg" alt=""></li></a>
-                <li><img src="hero/3.svg" alt=""></li>   
-                <li>
-                <img src="hero/5.svg" alt=""></li>
-        </ul>
-            <p class="button">Get my resume</p>
-        </div> 
-    </div>
-    <div class="LLI">
-         <ul id="LI">
-            <div class="parent language">
-                <p class="Tt lang">Language <img id="chirvon" src="hero/left chi.png"  height="20px" width="20px" alt=""></p>
-                <div class="child"><img id="S" src="hero/js.png" alt=""><div class="T">Javascript</div></div>
-        
-                <div class="child"><img id="S" src="hero/html.png" alt=""><div class="T">HTML</div></div>
-        
-                <div class="child"><img id="S" src="hero/css.png" alt=""><div class="T">CSS</div></div>
-            </div>
-        
-            <div class="lang">
-                <p class="Tt">Framework </p>
-                <img id="chirvon" src="hero/chirvon.png" height="20px" width="20px" alt="">
-            </div>
-            <hr class="line">
-        
-            <div class="lang">
-                <p class="Tt">Skills</p>
-                <img id="chirvon" src="hero/chirvon.png"  height="20px" width="20px" alt="">
-            </div>
-        
-            <hr class="line">
-
-         </ul>
-    </div>
-</div>
-    <section class="bg-color">
-        <div class="CDV">
-        <h2 id="contact-me">Contact me</h2>
-        <p class="contact-me-p">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-            I’d love to help with it!</p>
-    
-            <form id="form"
-            action="https://formspree.io/f/xdorkjkk"
-            method="POST">
-                <input id="name" type="text" name="name" placeholder="Name" required>
-    
-              <input id="email" type="email" name="email" placeholder="example@gmail.com" required>
-    
-              <textarea id="message" name="message" placeholder="Write Your Message" required></textarea>
-              <button class="button ,end" type="submit">Get in touch</button>
-        </div>    
-          </form>
-    
-         
-    </section>
-</section>
-</div>
-
-
-
+        <script src="index.js"></script>
 
 </body>
+
 </html>
